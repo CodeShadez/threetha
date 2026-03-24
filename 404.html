@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #13131d, #06060a 60%);
+      color: #f5f2ec;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card {
+      width: min(560px, 92vw);
+      border: 1px solid rgba(201, 168, 76, 0.4);
+      padding: 2rem;
+      text-align: center;
+      background: rgba(6, 6, 10, 0.75);
+    }
+    h1 { margin: 0 0 0.75rem; font-size: 2rem; }
+    p { margin: 0 0 1.5rem; color: rgba(245, 242, 236, 0.75); }
+    a {
+      display: inline-block;
+      padding: 0.7rem 1.2rem;
+      text-decoration: none;
+      border: 1px solid #c9a84c;
+      color: #c9a84c;
+    }
+    a:hover { background: #c9a84c; color: #06060a; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>404</h1>
+    <p>The page you requested does not exist or was moved.</p>
+    <a href="./">Back to homepage</a>
+  </main>
+</body>
+</html>
